@@ -5,7 +5,20 @@
 }
 
 :root {
-  font-family: "Roboto", sans-serif;
   --negro: #000;
   --blanco: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-text {
+  font-size: larger;
+}
+
+.carousel-item img {
+  width: 100%;
+
+  object-fit: fill;
 }
