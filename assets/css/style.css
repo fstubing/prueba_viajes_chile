@@ -19,6 +19,14 @@ body {
 
 .carousel-item img {
   width: 100%;
-
+  overflow: hidden;
   object-fit: fill;
+}
+
+.articulos p {
+  text-align: justify;
+}
+
+.bloque-celeste {
+  height: 40px;
 }

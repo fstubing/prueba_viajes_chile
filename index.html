@@ -76,7 +76,7 @@
     <!-- fin header -->
 
     <!-- comienzo main -->
-    <main>
+    <main class="text-bg-dark">
       <!-- carousel section -->
       <section id="hero container-fluid">
         <div id="carouselExample" class="carousel slide">
@@ -85,21 +85,21 @@
               <img
                 src="./assets/img/carousel1.jpg"
                 class="d-block h-50"
-                alt="..."
+                alt="imagen1"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="./assets/img/carousel2.jpg"
                 class="d-block h-50"
-                alt="..."
+                alt="imagen2"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="./assets/img/carousel3.jpg"
                 class="d-block h-50"
-                alt="..."
+                alt="imagen3"
               />
             </div>
           </div>
@@ -124,24 +124,65 @@
         </div>
       </section>
       <!-- quienes somos section -->
-      <section id="somos">
-        <h3></h3>
-        <article>
-          <section></section>
-          <p></p>
-        </article>
-        <article>
-          <section></section>
-          <p></p>
-        </article>
-        <article>
-          <section></section>
-          <p></p>
-        </article>
+      <section id="somos row">
+        <h5 class="text-center py-5 col-12">¿QUIÉNES SOMOS?</h5>
+        <section class="articulos container d-flex flex-row gap-4">
+          <article class="col-4">
+            <section
+              class="bloque-celeste bg-info d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-plane fa-xl"></i>
+            </section>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              explicabo pariatur, officia, culpa dolores quidem ipsam aliquam
+              officiis optio fugit ab nisi impedit quo placeat delectus omnis
+              nulla similique inventore! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Repudiandae, consectetur placeat temporibus ab
+              iste sequi rem provident mollitia accusamus aperiam consequuntur
+              necessitatibus, porro ratione expedita amet, veniam voluptates
+              cumque aspernatur.
+            </p>
+          </article>
+          <article class="col-4">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              explicabo pariatur, officia, culpa dolores quidem ipsam aliquam
+              officiis optio fugit ab nisi impedit quo placeat delectus omnis
+              nulla similique inventore! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Repudiandae, consectetur placeat temporibus ab
+              iste sequi rem provident mollitia accusamus aperiam consequuntur
+              necessitatibus, porro ratione expedita amet, veniam voluptates
+              cumque aspernatur.
+            </p>
+            <section
+              class="bloque-celeste bg-info d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-mountain fa-xl"></i>
+            </section>
+          </article>
+          <article class="col-4">
+            <section
+              class="bloque-celeste bg-info d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-route fa-xl"></i>
+            </section>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              explicabo pariatur, officia, culpa dolores quidem ipsam aliquam
+              officiis optio fugit ab nisi impedit quo placeat delectus omnis
+              nulla similique inventore! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Repudiandae, consectetur placeat temporibus ab
+              iste sequi rem provident mollitia accusamus aperiam consequuntur
+              necessitatibus, porro ratione expedita amet, veniam voluptates
+              cumque aspernatur.
+            </p>
+          </article>
+        </section>
       </section>
       <!-- lugares destacados section (cards) -->
       <section id="destacados">
-        <h3></h3>
+        <h5></h5>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card">
@@ -185,7 +226,7 @@
       </section>
       <!-- contacto section (form) -->
       <section id="contacto">
-        <h3></h3>
+        <h5></h5>
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label"
