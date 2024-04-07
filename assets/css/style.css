@@ -30,3 +30,15 @@ body {
 .bloque-celeste {
   height: 40px;
 }
+
+.cont-card {
+  width: 20rem;
+}
+
+.card img {
+  height: 130px;
+}
+
+.card {
+  color: var(--blanco);
+}
