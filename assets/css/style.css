@@ -46,3 +46,9 @@ body {
 .contacto {
   color: var(--blanco);
 }
+
+footer {
+  height: 85px;
+  color: var(--blanco);
+  font-weight: 100;
+}
