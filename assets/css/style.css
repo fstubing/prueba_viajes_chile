@@ -53,3 +53,11 @@ footer {
   color: var(--blanco);
   font-weight: 100;
 }
+
+footer a a:link,
+a:visited,
+a:active {
+  text-emphasis: none;
+  text-decoration: none;
+  color: var(--blanco);
+}
