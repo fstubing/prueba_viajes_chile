@@ -124,7 +124,7 @@
         </div>
       </section>
       <!-- quienes somos section -->
-      <section id="somos">
+      <section id="somos" class="px-5">
         <h5 class="text-center py-5">¿QUIÉNES SOMOS?</h5>
         <section class="articulos d-flex flex-row gap-4 mx-5">
           <article>
@@ -181,7 +181,7 @@
         </section>
       </section>
       <!-- lugares destacados section (cards) -->
-      <section id="destacados">
+      <section id="destacados" class="px-5">
         <h5 class="text-center py-5">DESTACADOS</h5>
         <div class="row row-cols-1 row-cols-md-4 mx-5 justify-content-between">
           <div class="col cont-card">
@@ -189,7 +189,7 @@
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="img-card1"
               />
               <div class="card-body bg-info">
                 <h5 class="card-title">Paisaje Destacado 1</h5>
@@ -207,7 +207,7 @@
               <img
                 src="./assets/img/card2.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="img-card2"
               />
               <div class="card-body bg-info">
                 <h5 class="card-title">Paisaje Destacado 2</h5>
@@ -225,7 +225,7 @@
               <img
                 src="./assets/img/card3.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="img-card3"
               />
               <div class="card-body bg-info">
                 <h5 class="card-title">Paisaje Destacado 3</h5>
@@ -243,7 +243,7 @@
               <img
                 src="./assets/img/card4.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="img-card4"
               />
               <div class="card-body bg-info">
                 <h5 class="card-title">Paisaje Destacado 4</h5>
@@ -259,44 +259,22 @@
         </div>
       </section>
       <!-- contacto section (form) -->
-      <section id="contacto">
+      <section id="contacto" class="px-5">
         <h5 class="text-center py-5">CONTACTO</h5>
-        <form>
+        <form class="mx-5">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" />
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" />
           </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="7"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-info text-white">Enviar</button>
         </form>
       </section>
     </main>
