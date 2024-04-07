@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- fuentes -->
+    <!-- fuentes google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- cdn bootstrap -->
+    <!-- cdn bootstrap v.5.3 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -183,11 +183,14 @@
       <!-- lugares destacados section (cards) -->
       <section id="destacados" class="px-5 px-sm-1">
         <h5 class="text-center py-5">DESTACADOS</h5>
-        <div
-          class="row row-cols-1 row-cols-md-4 mx-auto mx-md-5 justify-content-between"
-        >
+        <div class="row row-cols-1 row-cols-md-4 mx-5 justify-content-between">
           <div class="col cont-card pb-4">
-            <div class="card h-120">
+            <div
+              class="card h-120"
+              data-bs-toggle="popover"
+              data-bs-title="Primer Destino"
+              data-bs-content="Si buscas lagos y montañas"
+            >
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top"
@@ -205,7 +208,12 @@
             </div>
           </div>
           <div class="col cont-card pb-4">
-            <div class="card h-120">
+            <div
+              class="card h-120"
+              data-bs-toggle="popover"
+              data-bs-title="Segundo Destino"
+              data-bs-content="Si buscas más lagos y montañas"
+            >
               <img
                 src="./assets/img/card2.jpg"
                 class="card-img-top"
@@ -223,7 +231,12 @@
             </div>
           </div>
           <div class="col cont-card pb-4">
-            <div class="card h-120">
+            <div
+              class="card h-120"
+              data-bs-toggle="popover"
+              data-bs-title="Tercer Destino"
+              data-bs-content="Si buscas perderte en el desierto"
+            >
               <img
                 src="./assets/img/card3.jpg"
                 class="card-img-top"
@@ -241,7 +254,12 @@
             </div>
           </div>
           <div class="col cont-card pb-4">
-            <div class="card h-120">
+            <div
+              class="card h-120"
+              data-bs-toggle="popover"
+              data-bs-title="Cuarto Destino"
+              data-bs-content="Bienvenido a la selva!"
+            >
               <img
                 src="./assets/img/card4.jpg"
                 class="card-img-top"
@@ -276,7 +294,14 @@
             <label for="mensaje" class="form-label">Mensaje</label>
             <textarea class="form-control" id="mensaje" rows="7"></textarea>
           </div>
-          <button type="submit" class="btn btn-info text-white">Enviar</button>
+          <button
+            type="submit"
+            class="btn btn-info text-white"
+            data-bs-toggle="tooltip"
+            data-bs-title="click para enviar formulario"
+          >
+            Enviar
+          </button>
         </form>
       </section>
     </main>
@@ -291,23 +316,35 @@
       <section
         class="footer-rrss col-6 d-flex justify-content-center align-items-center gap-3"
       >
-        <a href="https://github.com/fstubing"
+        <a
+          href="https://github.com/fstubing"
+          data-bs-toggle="tooltip"
+          data-bs-title="Ir a nuestras redes sociales"
           ><i class="fa-brands fa-github fa-xl"></i
         ></a>
-        <a href="https://github.com/fstubing"
+        <a
+          href="https://github.com/fstubing"
+          data-bs-toggle="tooltip"
+          data-bs-title="Ir a nuestras redes sociales"
           ><i class="fa-brands fa-linkedin fa-xl"></i
         ></a>
-        <a href="https://github.com/fstubing"
+        <a
+          href="https://github.com/fstubing"
+          data-bs-toggle="tooltip"
+          data-bs-title="Ir a nuestras redes sociales"
           ><i class="fa-brands fa-twitter fa-xl"></i
         ></a>
-        <a href="https://github.com/fstubing"
+        <a
+          href="https://github.com/fstubing"
+          data-bs-toggle="tooltip"
+          data-bs-title="Ir a nuestras redes sociales"
           ><i class="fa-brands fa-square-facebook fa-xl"></i
         ></a>
       </section>
     </footer>
     <!-- fin footer -->
 
-    <!-- comienzo de vínculos scripts fontawesome, jquery, bootstrap y propio -->
+    <!-- comienzo de vínculos scripts fontawesome, jquery v.3.7.1, bootstrap v.5.3 y propio -->
     <script
       src="https://kit.fontawesome.com/104e0101a2.js"
       crossorigin="anonymous"
